@@ -1,0 +1,53 @@
+# .NET build output
+**/bin/
+**/obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# VS Code
+.vscode/
+
+# Build and test output
+**/Debug/
+**/Release/
+**/publish/
+**/TestResults/
+*.log
+
+# # Local application settings and secrets
+# **/appsettings.Development.json
+# **/appsettings.Local.json
+# **/local.settings.json
+# .env
+# .env.*
+
+# Terraform / OpenTofu generated files
+**/.terraform/
+**/.tofu/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars
+*.tfvars.json
+crash.log
+
+# Azure local files
+.azure/
+
+# Local certificates and credentials
+*.pfx
+*.p12
+*.pem
+*.key
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
